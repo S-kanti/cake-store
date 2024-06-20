@@ -1,3 +1,4 @@
+// Application Main Entry Point
 import React from "react";
 import NavBar from "./componants/NavBar";
 import Section2 from "./componants/Section2";
