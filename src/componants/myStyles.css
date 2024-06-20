@@ -1,0 +1,589 @@
+/* --------------header section---------------*/
+
+.navbarContainer {
+  /* border:solid; */
+  display: flex;
+  width: auto;
+  max-width: 100%;
+}
+.logo {
+  width: 130px;
+  height: auto;
+  margin: auto;
+}
+nav {
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+nav ul {
+  border: solid;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 5px 10px;
+  background: #6f4436cc;
+  color: #ffff;
+}
+
+nav ul li {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: Inika;
+  list-style-type: none;
+}
+
+li:hover {
+  border-radius: 30px;
+  background: #ffff;
+  color: #523728;
+}
+
+.login {
+  width: 127px;
+  height: 50px;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-family: Inika;
+  background: transparent;
+  font-weight: 500;
+  color: #523728;
+  font-size: 22px;
+  border: solid #523728;
+}
+
+/*---------------------section1--------------------------------------------*/
+.section1 {
+  display: flex;
+  margin: 10px 90px;
+}
+.heading {
+  margin: 40px auto;
+  /* padding-left: 80px; */
+}
+
+h1 {
+  font-family: Inika;
+  font-size: 69px;
+  line-height: 82.8px;
+  color: #523728;
+}
+.statement {
+  font-family: Inika;
+  font-size: 18px;
+  width: 400px;
+  margin-top: -35px;
+  margin-bottom: 50px;
+}
+.btns {
+  display: flex;
+  width: 400px;
+  font-family: Inika;
+}
+.headBtn {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-family: Poppins;
+  background: transparent;
+  font-weight: 500;
+  color: #523728;
+  font-size: 22px;
+  border: solid #523728;
+}
+button:hover {
+  background: #523728;
+  color: #ffff;
+}
+.firstCake {
+  width: 510px;
+  height: 500px;
+}
+
+/*--------------------------------------section 2-------------------------------------------*/
+.section2 {
+  display: flex;
+  margin: 10px 50px;
+  max-width: 100%;
+  font-family: Inika;
+  width:100%;
+  max-width: 100%;
+ 
+}
+.mainpic2 {
+ 
+  margin-top: -60px;
+}
+.about {
+  
+  margin-left:120px;
+  
+}
+
+h2 {
+  font-family: Inika;
+  font-size: 50px;
+  line-height: 82.8px;
+  color: #523728;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.discover {
+  font-size: 25px;
+  margin-top: 0;
+  margin-right: 40px;
+}
+.story {
+  width: 550px;
+  margin: 10px;
+}
+
+/*-------------------------------section3----------------------------------------------------*/
+.section3 {
+  margin: top 60px;
+  margin: 50px;
+  text-align: center;
+  font-family: Inika;
+}
+.mnues {
+  display: flex;
+}
+
+.mnue {
+  width: 320px;
+  height: 320px;
+  margin: 10px auto;
+  background: #fff8e1;
+  box-shadow: -1px -5px 21px rgba(77, 66, 44, 0.5),
+    1px 5px 21px rgba(77, 66, 44, 0.5);
+  border-radius: 41px;
+}
+.nmueimg {
+  width: 200px;
+}
+h3 {
+  margin-top: 1px;
+  margin-left: 10px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+.cakedes {
+  margin-top: 0;
+  margin-left: 10px;
+  text-align: left;
+}
+
+strong {
+  color: #523728;
+}
+
+.viewmore {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/*-------------------------------section4----------------------------------------------------*/
+.section4 {
+  font-family: Inika;
+  margin: 50px;
+  text-align: center;
+}
+.h2blog {
+  color: rgba(115, 75, 51, 1);
+}
+.blogs {
+  display: flex;
+  margin: auto;
+}
+
+.blog {
+  width: 300px;
+  height: 490px;
+  margin: 10px auto;
+  background: #fff8e1;
+  box-shadow: -1px -5px 21px rgba(77, 66, 44, 0.5),
+    1px 5px 21px rgba(77, 66, 44, 0.5);
+  border-radius: 41px;
+}
+.blogimg {
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 16px;
+}
+.respost {
+  margin-top: -10px;
+  color: rgba(115, 75, 51, 1);
+}
+.postdate {
+  color: rgba(187, 105, 57, 1);
+  margin-top: -15px;
+}
+.h3blog {
+  margin: 20px;
+  color: rgba(115, 75, 51, 1);
+}
+.blogdes {
+  margin: 20px;
+  color: rgba(115, 75, 51, 1);
+  text-align: left;
+}
+.readmore {
+  margin: 20px;
+  color: rgba(115, 75, 51, 1);
+  text-align: left;
+}
+
+.readmore:hover {
+  color: rgb(40, 18, 235);
+}
+
+/*-------------------------section five----------------------------*/
+
+.section5 {
+  width:100%;
+  max-width: 100%;
+  margin: 50px;
+  text-align: justify;
+  font-family: Inika;
+}
+.contact {
+  display: flex;
+}
+.contacts {
+  width: 50%;
+}
+.contactimg {
+  width: 350px;
+  margin: 0 75px;
+}
+.contactusp {
+  margin: 10px auto;
+}
+
+/*-----------------------------form contact--------------------------------*/
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+input {
+  font: robota;
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 30px;
+  padding-left: 15px;
+  background-color: rgba(255, 248, 225, 1);
+  border: none;
+}
+.textmessage {
+  border: none;
+  height: 150px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: rgba(255, 248, 225, 1);
+}
+.submitbtn {
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 40px;
+  background: #fcae36;
+  border: none;
+  box-shadow: -1px 1px 5px rgba(77, 66, 44, 0.5),
+    1px 5px 5px rgba(77, 66, 44, 0.5);
+}
+
+/*--------------------------footer------------------------------*/
+.footer{
+    height: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #523728;
+    color: #fff8e1;
+    padding: 20px;
+}
+
+/*--------------------phone------------------------------*/
+@media screen and (max-width: 768px) {
+    .navbarContainer {
+      flex-direction: column;
+    }
+    .logo {
+      width: 100px;
+    }
+    nav {
+      text-align: center;
+    }
+    nav ul {
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    nav ul li {
+      padding: 10px 0;
+    }
+    .login {
+      width: 100px;
+      height: 40px;
+      font-size: 18px;
+    }
+    /* You can add more styles here for smaller screens */
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .navbarContainer {
+        /* border:solid; */
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        max-width: 100%;
+      }
+      nav{
+        display: none;
+      }
+      .section1 {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column-reverse;  
+        margin:0;      
+      }
+      .heading {
+        margin:0px auto;
+        
+      }
+      
+      h1 {
+        font-family: Inika;
+        font-size: 40px;
+        line-height: 53.8px;
+        color: #523728;
+        margin-top: 5px;
+      }
+      .statement {
+        font-family: Inika;
+        font-size: 18px;
+        width: 400px;
+        margin-top: -25px;
+        margin-bottom: 10px;
+      }
+      .btns {
+        display: flex;
+        width: 400px;
+        font-family: Inika;
+      }
+    
+      
+      .firstCake {
+        width: 400px;
+        height: 400px;
+      }
+      
+      .section2 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 100%;
+        width: auto;
+        overflow: hidden;
+        font-family: Inika;
+        padding: 0 10px;
+        padding-right: 40px;
+      }
+      .mainpic2 {
+        margin: 0;
+        margin-top: -60px;
+          }
+          .secondCake{
+            width:400px
+          }
+      .about {
+        margin: auto;
+      }
+      
+      h2 {
+        font-family: Inika;
+        font-size: 30pxpx;
+        line-height: 50px;
+        color: #523728;
+        margin-bottom: 0;
+        margin-top: 0;
+        
+      }
+      .discover {
+        font-size: 25px;
+        margin-top: 0;
+      }
+      .story {
+        width: 100%;
+        margin: 10px;
+      }
+      .section3 {
+  margin: top 60px;
+  margin: 50px;
+  text-align: center;
+  font-family: Inika;
+}
+.mnues {
+  display: flex;
+  flex-direction: column;
+}
+
+.mnue {
+  width: 320px;
+  height: 320px;
+  margin: 10px auto;
+  background: #fff8e1;
+  box-shadow: -1px -5px 21px rgba(77, 66, 44, 0.5),
+    1px 5px 21px rgba(77, 66, 44, 0.5);
+  border-radius: 41px;
+}
+.nmueimg {
+  width: 200px;
+}
+h3 {
+  margin-top: 1px;
+  margin-left: 10px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+.cakedes {
+  margin-top: 0;
+  margin-left: 10px;
+  text-align: left;
+}
+
+strong {
+  color: #523728;
+}
+
+.viewmore {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/*-------------------------------section4----------------------------------------------------*/
+.section4 {
+  font-family: Inika;
+  margin: 50px;
+  text-align: center;
+
+}
+.h2blog {
+  color: rgba(115, 75, 51, 1);
+}
+.blogs {
+  display: flex;
+  flex-direction:column;
+  margin: auto;
+}
+
+.blog {
+  width: 300px;
+  height: 490px;
+  margin: 10px auto;
+  background: #fff8e1;
+  box-shadow: -1px -5px 21px rgba(77, 66, 44, 0.5),
+    1px 5px 21px rgba(77, 66, 44, 0.5);
+  border-radius: 41px;
+}
+.blogimg {
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 16px;
+}
+.respost {
+  margin-top: 0px;
+  color: rgba(115, 75, 51, 1);
+}
+.postdate {
+  color: rgba(187, 105, 57, 1);
+  margin-top: -15px;
+}
+.h3blog {
+  margin: 20px;
+  color: rgba(115, 75, 51, 1);
+}
+.blogdes {
+  margin: 20px;
+  color: rgba(115, 75, 51, 1);
+  text-align: left;
+}
+.readmore {
+  margin: 20px;
+  color: rgba(115, 75, 51, 1);
+  text-align: left;
+}
+
+.readmore:hover {
+  color: rgb(40, 18, 235);
+}
+
+/*-------------------------section five----------------------------*/
+
+.section5 {
+  margin: 0px;
+  text-align: justify;
+  font-family: Inika;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contacts {
+  width:100%;
+}
+.contactimg {
+  width: 350px;
+  margin: 0;
+}
+.contactusp {
+  margin:0px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  input {
+    font: robota;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    padding-left: 15px;
+    background-color: rgba(255, 248, 225, 1);
+    border: none;
+  }
+  .textmessage {
+    border: none;
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgba(255, 248, 225, 1);
+  }
+  .submitbtn {
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background: #fcae36;
+    border: none;
+    box-shadow: -1px 1px 5px rgba(77, 66, 44, 0.5),
+      1px 5px 5px rgba(77, 66, 44, 0.5);
+  }
+  
+  }
+  
